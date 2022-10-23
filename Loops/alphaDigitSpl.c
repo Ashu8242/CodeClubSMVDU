@@ -3,10 +3,10 @@
 int main(){
     int n,actr=0,dctr=0,spctr=0,i;
     char ch;
-    printf("Enter no of characters\n");
+    printf("Enter no of Characters\n");
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        printf("Enter character\n");
+        printf("Enter Character\n");
         scanf(" %c",&ch);
         if(ch>='a' && ch<='z' || ch>='A' && ch<='Z'){
             actr++;
